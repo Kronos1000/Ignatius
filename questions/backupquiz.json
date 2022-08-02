@@ -1,0 +1,107 @@
+[
+  {
+    "question": "What is the meaning of life?",
+    "a1": "42",
+    "a2": "Cheese",
+    "a3": "Fish",
+    "correctAnswerIs": "1️⃣"
+  },
+  {
+    "question": "Which methodology employs an interactive process to enable rapid adjustments throughout a project?",
+    "a1": "Waterfall",
+    "a2": "Agile",
+    "a3": "PRINCE2",
+    "correctAnswerIs": "2️⃣"
+  },
+  {
+    "question": "Which methodology is aimed at maintaining organization and control of projects through processes?",
+    "a1": "Scrum",
+    "a2": "PRINCE2",
+    "a3": "Kanban",
+    "correctAnswerIs": "2️⃣"
+  },
+  {
+    "question": "Which methodology commonly uses 30-day sprints to prioritize tasks?",
+    "a1": "Kanban",
+    "a2": "Scrum",
+    "a3": "Agine",
+    "correctAnswerIs": "2️⃣"
+  },
+  {
+    "question": "Which methodology uses visual boards or cards to display the status of work being done?",
+    "a1": "Waterfall",
+    "a2": "Kanban",
+    "a3": "Scrum",
+    "correctAnswerIs": "2️⃣"
+  },
+  {
+    "question": "Which type of diagram would best demonstrate the functions of objects in a system?",
+    "a1": "Sequence Diagram",
+    "a2": "Flow Chart",
+    "a3": "Class Diagram",
+    "correctAnswerIs": "3️⃣"
+  },
+  {
+    "question": "Which of these is the series of processes involved in dealing with uncertain events in the workplace?",
+    "a1": "Incident Avoidance",
+    "a2": "Risk Management",
+    "a3": "Predicament Planning",
+    "correctAnswerIs": "2️⃣"
+  },
+  {
+    "question": "What is a positive risk?",
+    "a1": "Opportunity",
+    "a2": "Benefit",
+    "a3": "Non-existant",
+    "correctAnswerIs": "1️⃣"
+  },
+  {
+    "question": "What is a negative risk?",
+    "a1": "Danger",
+    "a2": "Hazard",
+    "a3": "Threat",
+    "correctAnswerIs": "3️⃣"
+  },
+  {
+    "question": "What is the range of likelihoods of a risk occurring?",
+    "a1": "0-100%",
+    "a2": "1-99%",
+    "a3": "90-100%",
+    "correctAnswerIs": "2️⃣"
+  },
+  {
+    "question": "In managing uncertain events in the workplace, what is probability?",
+    "a1": "The likelihood that the event will occur",
+    "a2": "The chance of avoiding an incident",
+    "a3": "The consequence of the event occuring",
+    "correctAnswerIs": "1️⃣"
+  },
+  {
+    "question": "What type of risk response reduces the uncertainty to 0%?",
+    "a1": "Avoidance",
+    "a2": "Acceptance",
+    "a3": "Share/Transfer",
+    "correctAnswerIs": "1️⃣"
+  },
+  {
+    "question": "What type of risk response makes a risk 100% likely to occur?",
+    "a1": "Ensurance",
+    "a2": "Exploitation",
+    "a3": "Allowance",
+    "correctAnswerIs": "2️⃣"
+  },
+  {
+    "question": "Is Midori awesome?",
+    "a1": "Yes!",
+    "a2": "Definitely!",
+    "a3": "Absolutely!",
+    "correctAnswerIs": "1️⃣"
+  },
+  {
+    "question": "Acccording to the power interest grid what type of client wants to be actively invloved in the goings on of a project",
+    "a1": "High power ,High interest",
+    "a2": "low power High Interest",
+    "a3": "high power low interest",
+    "correctAnswerIs": "1️⃣"
+  }
+]

@@ -1,0 +1,81 @@
+{
+    "id": "4",
+    "uuid": "string",
+    "externalId": "string",
+    "dataSourceId": "string",
+    "userName": "User141",
+    "studentId": "2019003003",
+    "educationLevel": "NCEA6",
+    "gender": "Male",
+    "pronouns": "he/him",
+    "birthDate": "2000-07-22T02:13:02.645Z",
+    "created": "2020-02-06T02:13:02.645Z",
+    "modified": "2022-04-06T02:13:02.645Z",
+    "lastLogin": "2022-04-06T02:13:02.645Z",
+    "institutionRoleIds": [
+        "string"
+    ],
+    "systemRoleIds": [
+        "SystemAdmin"
+    ],
+    "availability": {
+        "available": "Yes"
+    },
+    "name": {
+        "given": "Nicholas",
+        "family": "Cage",
+        "middle": "string",
+        "other": "string",
+        "suffix": "string",
+        "title": "Mr"
+    },
+    "job": {
+        "title": "string",
+        "department": "string",
+        "company": "string"
+    },
+    "contact": {
+        "homePhone": "string",
+        "mobilePhone": "0274686456",
+        "businessPhone": "string",
+        "businessFax": "string",
+        "email": "string",
+        "institutionEmail": "string",
+        "webPage": "string"
+    },
+    "address": {
+        "street1": "string",
+        "street2": "string",
+        "city": "string",
+        "state": "string",
+        "zipCode": "string",
+        "country": "string"
+    },
+    "locale": {
+        "id": "string",
+        "calendar": "Gregorian",
+        "firstDayOfWeek": "Sunday"
+    },
+    "avatar": {
+        "viewUrl": "string",
+        "source": "Default",
+        "uploadId": "string"
+    },
+    "pronunciation": "string",
+    "pronunciationAudio": {
+        "viewUrl": "string",
+        "uploadId": "string"
+    },
+
+
+  
+
+    "message": {
+
+        "senderFirstName": "Anita",
+        "senderLastName": "Murphy",
+        "messageContent": "Sorry class is Cancelled today",
+        "senderTitle": "Ms"
+    }
+
+}

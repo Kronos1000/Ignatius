@@ -1,0 +1,33 @@
+{
+  "name": "midori",
+  "version": "0.1.0",
+  "description": "A Proof of Concept Discord Bot that will automatically get and provide Blackboard information to Students.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Midori SIT",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RonanFergusonSIT/Midori.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RonanFergusonSIT/Midori/issues"
+  },
+  "homepage": "https://github.com/RonanFergusonSIT/Midori#readme",
+  "dependencies": {
+    "@azure/cosmos": "^3.16.1",
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "cron": "^2.0.0",
+    "discord-api-types": "^0.29.0",
+    "discord.js": "^13.7.0",
+    "sequelize": "^6.20.1",
+    "sqlite3": "^5.0.8"
+  },
+  "devDependencies": {
+    "eslint": "^8.16.0"
+  }
+}
