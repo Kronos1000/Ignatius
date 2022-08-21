@@ -71,8 +71,7 @@ const s = await returnedString[returnedString.findIndex((record) => {return reco
 		// 		.addFields(
 		// 			{
 		// 				name: 'ITC 601 Project management',
-		// 				value: `${s.message.senderTitle} ${s.message.senderFirstName}  
-		// 				${s.message.senderLastName} \n ${s.message.messageContent}`,
+		// 				value: ,
 		// 			},
 
 					
