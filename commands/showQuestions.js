@@ -16,7 +16,7 @@ module.exports = {
 		const info = JSON.stringify((quiz));
 		const words = "words";
 console.log(quiz);
-	await interaction.reply('Check Console Log');
+	await interaction.reply("Check System Log for details");
 
 
 	

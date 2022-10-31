@@ -12,27 +12,6 @@
     "a2": "///",
     "a3": "To display the contents of a data store ",
     "correctAnswerIs": "1️⃣"
-  },
-  {
-    "question": "What is white box testing?",
-    "a1": "When a system is tested without prior knowledge of its internal workings",
-    "a2": "///",
-    "a3": "A method of software testing that tests internal structures or workings of an application, as opposed to its functionality  ",
-    "correctAnswerIs": "3️⃣"
-  },
-  {
-    "question": "What is black box testing?",
-    "a1": "///",
-    "a2": "When a system is tested without prior knowledge of its internal workings",
-    "a3": "A method of software testing that tests internal structures or workings of an application, as opposed to its functionality  ",
-    "correctAnswerIs": "2️⃣"
-  },
-  null,
-  {
-    "question": "What is the purpose  statechart  diagram? ",
-    "a1": "It is diagram that is used to show the lifecycle of an object",
-    "a2": "///",
-    "a3": "To document a system's requirements and to flush out a system's design. ",
-    "correctAnswerIs": "1️⃣"
   }
+ 
 ]
