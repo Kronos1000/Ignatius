@@ -1,17 +1,4 @@
 [
-  {
-    "question": "Which type of diagram would best demonstrate the functions of objects in a system?",
-    "a1": "Sequence Diagram",
-    "a2": "Flow Chart",
-    "a3": "Class Diagram",
-    "correctAnswerIs": "3️⃣"
-  },
-  {
-    "question": "What is the purpose of a class diagram?",
-    "a1": "to clearly map out the structure of a particular system by modeling its classes, attributes, operations, and relationships between objects.",
-    "a2": "///",
-    "a3": "To display the contents of a data store ",
-    "correctAnswerIs": "1️⃣"
-  }
- 
+  null,
+  null
 ]
