@@ -7,5 +7,19 @@
     "a2": "definitely",
     "a3": "F**K Yeah",
     "correctAnswerIs": "3️⃣"
+  },
+  {
+    "question": "patrick",
+    "a1": null,
+    "a2": "a",
+    "a3": "b",
+    "correctAnswerIs": "c"
+  },
+  {
+    "question": "patrick",
+    "a1": "patrick",
+    "a2": "1",
+    "a3": "2",
+    "correctAnswerIs": "3"
   }
 ]
