@@ -5,16 +5,9 @@ module.exports = {
 	data: new SlashCommandBuilder()
 		.setName('addquestion')
 		.setDescription('Adds a new question to the quiz.')
-<<<<<<< Updated upstream
-=======
-		
-
-		
->>>>>>> Stashed changes
 		.addStringOption((option) =>
-		option.setName('question').setDescription('What is your question?').setRequired(true),
-	)
-
+			option.setName('question').setDescription('What is your question?').setRequired(true),
+		)
 		.addStringOption((option) =>
 			option.setName('answerone').setDescription('The first answer to be shown').setRequired(true),
 		)
@@ -30,12 +23,7 @@ module.exports = {
 
 	async execute(interaction) {
 		const quiz = require('../questions/quiz.json');
-<<<<<<< Updated upstream
 
-=======
-		
-		const subject = interaction.options.getString('subject');
->>>>>>> Stashed changes
 		const question = interaction.options.getString('question');
 		const a1 = interaction.options.getString('answerone');
 		const a2 = interaction.options.getString('answertwo');
@@ -56,15 +44,9 @@ module.exports = {
 			break;
 		}
 
-<<<<<<< Updated upstream
 		const newQ = new Question(question, a1, a2, a3, correctAnswerIs);
-=======
-		const newQ = new Question(question,a1, a2, a3, correctAnswerIs);
->>>>>>> Stashed changes
 		quiz.push(newQ);
 		writeQuestionsToFile(quiz, 'quiz.json');
-		
 		interaction.reply({ content: 'Successfully added question to the quiz!', ephemeral: true });
-		console.log(newQ);
 	},
 };
