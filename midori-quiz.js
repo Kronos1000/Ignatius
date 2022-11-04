@@ -2,7 +2,9 @@ const fs = require('fs');
 
 class Question {
 
-	constructor(question, a1, a2, a3, correctAnswerIs) {
+	constructor(subject,question, a1, a2, a3, correctAnswerIs) {
+		
+		this.subject= subject;
 		this.question = question;
 		this.a1 = a1;
 		this.a2 = a2;

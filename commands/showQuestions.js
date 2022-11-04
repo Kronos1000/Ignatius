@@ -15,8 +15,8 @@ module.exports = {
 		console.log("There are currently " +keyCount +  " questions in the quiz bank.");
 		const info = JSON.stringify((quiz));
 		const words = "words";
-console.log(quiz);
-	await interaction.reply("Check System Log for details");
+console.log(quiz); 
+	await interaction.reply("Check System Log for Questions ");
 
 
 	

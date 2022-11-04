@@ -5,6 +5,10 @@ module.exports = {
 	data: new SlashCommandBuilder()
 		.setName('addquestion')
 		.setDescription('Adds a new question to the quiz.')
+
+		.addIntegerOption((option) =>
+		option.setName('subject').setDescription('Enter PaperID#').setRequired(true),
+	)
 		.addStringOption((option) =>
 			option.setName('question').setDescription('What is your question?').setRequired(true),
 		)
@@ -20,16 +24,18 @@ module.exports = {
 		.addIntegerOption((option) =>
 			option.setName('correctanswer').setDescription('The correct number').setRequired(true).setMinValue(1).setMaxValue(3),
 		),
-
+	
 	async execute(interaction) {
 		const quiz = require('../questions/quiz.json');
-
+		
+		const subject = interaction.options.getString('subject');
 		const question = interaction.options.getString('question');
 		const a1 = interaction.options.getString('answerone');
 		const a2 = interaction.options.getString('answertwo');
 		const a3 = interaction.options.getString('answerthree');
-
+		
 		const correctAnswerINT = interaction.options.getInteger('correctanswer');
+	
 		let correctAnswerIs;
 
 		switch (correctAnswerINT) {
@@ -44,9 +50,27 @@ module.exports = {
 			break;
 		}
 
-		const newQ = new Question(question, a1, a2, a3, correctAnswerIs);
+		const newQ = new Question(subject,question, a1, a2, a3, correctAnswerIs);
 		quiz.push(newQ);
 		writeQuestionsToFile(quiz, 'quiz.json');
-		interaction.reply({ content: 'Successfully added question to the quiz!', ephemeral: true });
+		
+		interaction.reply("The Following question has been added to question Bank:  \n " + "Subject: " + subject 
+		+"\n Question: " + question 
+		+  "\n Answer ONE: " + a1 
+		+"\n Answer TWO: " + a2
+	   + "\n Answer Three: " + a3 
+	   +"\n Correct Answer: " +correctAnswerIs);
+		
+		
+		// console.log("There are currently " +keyCount +  " questions in the quiz bank.");
+		
+		
+		console.log("The Following question has been added to question Bank:  \n " + "Subject: " + subject 
+		 +"\n Question: " + question 
+		 +  "\n Answer ONE: " + a1 
+		 +"\n Answer TWO: " + a2
+		+ "\n Answer Three: " + a3 
+		+"\n Correct Answer: " +correctAnswerIs
+		   ); 
 	},
 };
