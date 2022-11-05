@@ -54,14 +54,14 @@ module.exports = {
 		quiz.push(newQ);
 		writeQuestionsToFile(quiz, 'quiz.json');
 		
-		interaction.reply("Question has been added to the Question bank ");
+		interaction.reply("The following question has been added: \n " + question);
 		
 		
 		// console.log("There are currently " +keyCount +  " questions in the quiz bank.");
 		
 		
 		console.log("The Following question has been added to question Bank:  \n " + "Subject: " + subject 
-		 +"\nxQuestion: " + question 
+		 +"\n Question: " + question 
 		 +  "\nAnswer ONE: " + a1 
 		 +"\nAnswer TWO: " + a2
 		+ "\nAnswer Three: " + a3 
