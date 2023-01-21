@@ -3,20 +3,20 @@ const { Question, writeQuestionsToFile } = require('../midori-quiz');
 
 module.exports = {
 	data: new SlashCommandBuilder()
-		.setName('showquestions')
-		.setDescription('show all questions currently in quiz bank '),
+		.setName('count')
+		.setDescription('Returns the number of questions currently in the question bank '),
 		
 		
 
 	async execute(interaction) {
 		const quiz = require('../questions/quiz.json');
-		//console.log(quiz)
-		var keyCount  = Object.keys(quiz).length;
-		console.log("There are currently " +keyCount +  " questions in the quiz bank.");
+		console.log("Question Count: " +quiz.length)
+		var keyCount  = quiz.length
+
 		const info = JSON.stringify((quiz));
 		const words = "words";
-console.log(quiz);
-	await interaction.reply("Check System Log for details");
+
+	await interaction.reply("Question Count: " +quiz.length);
 
 
 	

@@ -181,14 +181,16 @@ function startAutoCalendar(guild) {
 function startQuiz(guild) {
 	const client = guild.client;
 	guild.quizJob = new CronJob(
-		'*/30 * * * * *',
+		'*/25 * * * * *',
 		async function() {
 			const quiz = require('./questions/quiz.json');
 			const quizTag = await client.Tags.findOne({ where: { name: `${guild.id}.quizchannel` } });
 			const channel = await client.channels.cache.get(quizTag.get('description'));
 			const r = Math.floor(Math.random() * quiz.length);
+		
 			const item = quiz[r];
-
+			
+			console.log("Question Number " +r + " Has been Drawn");
 
 			const questionEmbed = new MessageEmbed()
 				.setColor('#3EDE7A')

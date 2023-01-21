@@ -28,7 +28,7 @@ module.exports = {
 	async execute(interaction) {
 		const quiz = require('../questions/quiz.json');
 		
-		const subject = interaction.options.getString('subject');
+		const subject = interaction.options.getInteger('subject');
 		const question = interaction.options.getString('question');
 		const a1 = interaction.options.getString('answerone');
 		const a2 = interaction.options.getString('answertwo');
@@ -54,14 +54,14 @@ module.exports = {
 		quiz.push(newQ);
 		writeQuestionsToFile(quiz, 'quiz.json');
 		
-		interaction.reply("The following question has been added: \n " + question);
+		interaction.reply("Question has been added to the Question bank ");
 		
 		
 		// console.log("There are currently " +keyCount +  " questions in the quiz bank.");
 		
 		
 		console.log("The Following question has been added to question Bank:  \n " + "Subject: " + subject 
-		 +"\n Question: " + question 
+		 +"\nxQuestion: " + question 
 		 +  "\nAnswer ONE: " + a1 
 		 +"\nAnswer TWO: " + a2
 		+ "\nAnswer Three: " + a3 

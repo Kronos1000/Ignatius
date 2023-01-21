@@ -17,12 +17,226 @@
   },
   {
     "subject": "ITC608",
-    "question": "Which of these is  an Example of Explicit story telling",
+    "question": "Which of these is  an Example of EXPLICIT story telling",
     "a1": "CutScenes",
     "a2": "environmental  cues",
     "a3": "//",
     "correctAnswerIs": "1️⃣"
   },
-  null,
-  null
+  {
+    "subject": 608,
+    "question": "What is an example of IMPLICIT story telling ?",
+    "a1": "Interactions with NPC's",
+    "a2": "//",
+    "a3": "Environmental Cues",
+    "correctAnswerIs": "3️⃣"
+  },
+  {
+    "subject": 608,
+    "question": "What is the definition of the term \"Operating Condition\"",
+    "a1": "The way that humans will behave in order to obtain rewards and avoid punishments",
+    "a2": "When Players with access to a shared resource  act in their own interest and cause it to become depleted",
+    "a3": "//",
+    "correctAnswerIs": "1️⃣"
+  },
+  {
+    "subject": 608,
+    "question": "What is a zero sum game",
+    "a1": "A game in which each participant’s gain or loss is  exactly balanced by the gain or loss of the other  participants.",
+    "a2": "//",
+    "a3": "when the gains of player are not dependant on the losses of another",
+    "correctAnswerIs": "1️⃣"
+  },
+  {
+    "subject": 608,
+    "question": "What is  the defintion of a non zero-sum game",
+    "a1": "//",
+    "a2": "A player’s gains are NOT  dependant on someone else’s  losses",
+    "a3": "A player’s gains ARE   dependant on someone else’s  losses",
+    "correctAnswerIs": "2️⃣"
+  },
+  {
+    "subject": 608,
+    "question": "What is Confirmation Bias?",
+    "a1": "The tendency to search for, favour and recall information in a way that supports or confirms someone’s prior beliefs or values.",
+    "a2": "The process by which humans and animals learn to behave in such a way as to obtain rewards and avoid punishments.",
+    "a3": "Anything that is called out by text or speech",
+    "correctAnswerIs": "1️⃣"
+  },
+  {
+    "subject": 608,
+    "question": "Which of these is NOT a principle of good level design?",
+    "a1": "Fun to explore",
+    "a2": "Becomes more difficult as you progress",
+    "a3": "Tells a story without words",
+    "correctAnswerIs": "2️⃣"
+  },
+  {
+    "subject": 608,
+    "question": "Which of these is NOT a principle of good level design?",
+    "a1": "Notifies you to progress",
+    "a2": "Teaches you",
+    "a3": "Doesn't tell you how to play",
+    "correctAnswerIs": "1️⃣"
+  },
+  {
+    "subject": 608,
+    "question": "Which of these is NOT a principle of good level design?",
+    "a1": "Surprises you",
+    "a2": "Makes you feel important",
+    "a3": "Reminds you of previous tutorials",
+    "correctAnswerIs": "3️⃣"
+  },
+  {
+    "subject": 608,
+    "question": "Which of these is NOT a principle of good level design?",
+    "a1": "Is efficient",
+    "a2": "Dynamically challenges you",
+    "a3": "Good color usage",
+    "correctAnswerIs": "3️⃣"
+  },
+  {
+    "subject": 608,
+    "question": "Which of these is NOT a principle of good level design?",
+    "a1": "Is not broken",
+    "a2": "Starts with emotion",
+    "a3": "Highlights the mechanics",
+    "correctAnswerIs": "1️⃣"
+  },
+  {
+    "subject": 608,
+    "question": "Which of these is anything called out by text or speech?",
+    "a1": "Explicit",
+    "a2": "Implicit",
+    "a3": "Emergent",
+    "correctAnswerIs": "1️⃣"
+  },
+  {
+    "subject": 608,
+    "question": "Which of these is anything told by the environment?",
+    "a1": "Explicit",
+    "a2": "Implicit",
+    "a3": "Emergent",
+    "correctAnswerIs": "1️⃣"
+  },
+  {
+    "subject": 608,
+    "question": "Which of these is anything told as the player progresses through a level?",
+    "a1": "Explicit",
+    "a2": "Implicit",
+    "a3": "Emergent",
+    "correctAnswerIs": "3️⃣"
+  },
+  {
+    "subject": 608,
+    "question": "What is the A in ADSR?",
+    "a1": "Approach",
+    "a2": "Arrival",
+    "a3": "Attack",
+    "correctAnswerIs": "3️⃣"
+  },
+  {
+    "subject": 608,
+    "question": "What is the D in ADSR?",
+    "a1": "Development",
+    "a2": "Derivision",
+    "a3": "Decay",
+    "correctAnswerIs": "3️⃣"
+  },
+  {
+    "subject": 608,
+    "question": "What is the S in ADSR?",
+    "a1": "Soundwave",
+    "a2": "Sustain",
+    "a3": "Stop",
+    "correctAnswerIs": "2️⃣"
+  },
+  {
+    "subject": 608,
+    "question": "What is the R in ADSR?",
+    "a1": "Release",
+    "a2": "Repeat",
+    "a3": "Reduce",
+    "correctAnswerIs": "1️⃣"
+  },
+  {
+    "subject": 608,
+    "question": "Which of these describes a zero-sum game?",
+    "a1": "Each participant’s gain or loss is exactly balanced by the gain or loss of the other participants.",
+    "a2": "A player’s gains aren’t dependant on someone else’s losses.",
+    "a3": "A game that has an inconclusive ending, or a cliffhanger",
+    "correctAnswerIs": "1️⃣"
+  },
+  {
+    "subject": 608,
+    "question": "Which of these describes a non zero-sum game?",
+    "a1": "Each participant’s gain or loss is exactly balanced by the gain or loss of the other participants.",
+    "a2": "A player’s gains aren’t dependant on someone else’s losses.",
+    "a3": "A game that has an inconclusive ending, or a cliffhanger",
+    "correctAnswerIs": "2️⃣"
+  },
+  {
+    "subject": 608,
+    "question": "What is the Tragedy of the Commons",
+    "a1": "Individuals share access to a resource, depleting it over time",
+    "a2": "Players with bad commonplace internet connections suffer in multiplayer",
+    "a3": "An early video game series from the 80s",
+    "correctAnswerIs": "1️⃣"
+  },
+  {
+    "subject": 608,
+    "question": "Which of these is an example of an explicit challenge?",
+    "a1": "You are instructed to collect 10 bear pelts.",
+    "a2": "You see a treasure chest at the top of a difficult, out of the way climb.",
+    "a3": "//",
+    "correctAnswerIs": "1️⃣"
+  },
+  {
+    "subject": 608,
+    "question": "Which of these is an example of an implicit challenge?",
+    "a1": "You are instructed to collect 10 bear pelts.",
+    "a2": "You see a treasure chest at the top of a difficult, out of the way climb.",
+    "a3": "//",
+    "correctAnswerIs": "2️⃣"
+  },
+  {
+    "subject": 608,
+    "question": "In which time interval does the game state rotate between active players?",
+    "a1": "Turn-based",
+    "a2": "Real-time",
+    "a3": "Time-limited",
+    "correctAnswerIs": "1️⃣"
+  },
+  {
+    "subject": 608,
+    "question": "In which time interval are all players active simultaneously?",
+    "a1": "Turn-based",
+    "a2": "Real-time",
+    "a3": "Time-limited",
+    "correctAnswerIs": "2️⃣"
+  },
+  {
+    "subject": 608,
+    "question": "In which time interval does the player have a limitation of time to complete an objective?",
+    "a1": "Turn-based",
+    "a2": "Real-time",
+    "a3": "Time-limited",
+    "correctAnswerIs": "3️⃣"
+  },
+  {
+    "subject": 608,
+    "question": "What is EMERGENT story telling",
+    "a1": "When the story is driven by the progress of the player",
+    "a2": "When the story of the game is told by the game environment",
+    "a3": "Anything that is directly  communicated to the player",
+    "correctAnswerIs": "1️⃣"
+  },
+  {
+    "subject": 608,
+    "question": "In terms of sound design does the Abbreviation of ADSR Stand for",
+    "a1": "Arrival Decay Soundwave",
+    "a2": "Attack Decay Sustain Release",
+    "a3": "Audio Design Supporting Roles",
+    "correctAnswerIs": "2️⃣"
+  }
 ]

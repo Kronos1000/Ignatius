@@ -1,0 +1,162 @@
+[
+  {
+    "subject": 513,
+    "question": "In terms of programming the acronym DRY usually refers to",
+    "a1": "Avoiding the duplication of code",
+    "a2": "when code is lacking substance",
+    "a3": "data representation using yaml",
+    "correctAnswerIs": "1️⃣"
+  },
+  {
+    "subject": 513,
+    "question": "A Dictionary in C# is a",
+    "a1": "A data structure containing a list of values indexed by an integer",
+    "a2": "A data structure containing list of key-value pairs indexed by the key",
+    "a3": "A data structure containing unique values",
+    "correctAnswerIs": "2️⃣"
+  },
+  {
+    "subject": 513,
+    "question": "Which is true about documentation in a programming project?",
+    "a1": "Documentation should be done after the project is complete",
+    "a2": "Documentation is wasteful of time and should be ignored",
+    "a3": "Documentation should be produced at all stages of the project",
+    "correctAnswerIs": "3️⃣"
+  },
+  {
+    "subject": 513,
+    "question": "Which form of visibility allows a method to only be seen by objects of the same class?",
+    "a1": "private",
+    "a2": "public",
+    "a3": "internal",
+    "correctAnswerIs": "1️⃣"
+  },
+  {
+    "subject": 513,
+    "question": "What is object oriented programming most useful for",
+    "a1": "Applications written in machine code",
+    "a2": "Applications written without classes",
+    "a3": "Large complex applications",
+    "correctAnswerIs": "3️⃣"
+  },
+  {
+    "subject": 513,
+    "question": "For the declaration List: <string> list = new List<string>( ); Which statement accesses the THIRD element of the List?",
+    "a1": "string name = list[2];",
+    "a2": "student = list.get(2);",
+    "a3": "string name = list[3];",
+    "correctAnswerIs": "1️⃣"
+  },
+  {
+    "subject": 513,
+    "question": "The Split( ) method of the String class...",
+    "a1": "Combines multiple strings together based on common characters",
+    "a2": "Allows the programmer to break a string up into an array of smaller strings",
+    "a3": "Allows the programmer to read in multiple integers",
+    "correctAnswerIs": "2️⃣"
+  },
+  {
+    "subject": 513,
+    "question": "Which class would be suitable for reading strings from a textfile?",
+    "a1": "Scanner",
+    "a2": "StreamReader",
+    "a3": "Console",
+    "correctAnswerIs": "1️⃣"
+  },
+  {
+    "subject": 513,
+    "question": "string[] names = {\"Manu\", \"Ariana\", \"Tia\", \"Hone\"} Which loop will write out the names to the console?",
+    "a1": "foreach(string name in names)  {   Console.WriteLine(name); }",
+    "a2": "int i = 0; while( i < names.length) {   Console.WriteLine(names[i]); }",
+    "a3": "for(int i = 1; i <= names.length; i++) {   Console.WriteLine(names[i]); }",
+    "correctAnswerIs": "1️⃣"
+  },
+  {
+    "subject": 513,
+    "question": "A class called Student has public properties Name, Age, Address A Dictionary called students is to store a series of Student objects, based on the student Name. Given that variable called student has been created – which of the following will add student to the dictionary",
+    "a1": "Students.add(Student);",
+    "a2": "Students[name,student] = student;",
+    "a3": "Students.add(Student.name,Student);",
+    "correctAnswerIs": "3️⃣"
+  },
+  {
+    "subject": 513,
+    "question": "Event driven programming is where",
+    "a1": "code is executed responding to an event such as a mouse click",
+    "a2": "A system error occurs resulting in the loss of the current project",
+    "a3": "code is written for an important public occasion",
+    "correctAnswerIs": "1️⃣"
+  },
+  {
+    "subject": 513,
+    "question": "which class header describes a class called Circle which is a subclass of a class called shape?",
+    "a1": "class Shape : Circle",
+    "a2": "class Circle << Shape",
+    "a3": "Class Circle : Shape",
+    "correctAnswerIs": "3️⃣"
+  },
+  {
+    "subject": 513,
+    "question": "All .NET programs compile to",
+    "a1": "Machine code",
+    "a2": "Assembly code",
+    "a3": "Microsoft Intermediate Langauge",
+    "correctAnswerIs": "3️⃣"
+  },
+  {
+    "subject": 513,
+    "question": "What is unit testing",
+    "a1": "a process that allows testing of an application as one unit",
+    "a2": "It refers to the testing of individual components of a software project",
+    "a3": "the unit of measurement when comparing code efficiency",
+    "correctAnswerIs": "2️⃣"
+  },
+  {
+    "subject": 513,
+    "question": "Which of the following will convert a string s to an integer num?",
+    "a1": "num = int.Parse(s);",
+    "a2": "num = int.ParseInteger(s);",
+    "a3": "num =(int) s;",
+    "correctAnswerIs": "1️⃣"
+  },
+  {
+    "subject": 513,
+    "question": "why is a base case important in recursion?",
+    "a1": "without it the recursion would never start",
+    "a2": "The base case is the first call  before the recursion starts",
+    "a3": "Without a base case calling the recursion would usually result in a stack overflow.",
+    "correctAnswerIs": "3️⃣"
+  },
+  {
+    "subject": 513,
+    "question": "Inheritance...",
+    "a1": "Encourages re use of code",
+    "a2": "Can only be used in console based programming",
+    "a3": "Allows the use of multiple methods with the same name.",
+    "correctAnswerIs": "1️⃣"
+  },
+  {
+    "subject": 513,
+    "question": "What is Blackbox Testing?",
+    "a1": "White box testing is an approach that allows testers to inspect and verify the inner workings of a software",
+    "a2": "//",
+    "a3": "black box testing is testing that take place without knowledge of a programs inner workings",
+    "correctAnswerIs": "3️⃣"
+  },
+  {
+    "subject": 513,
+    "question": "What is the defintion of white box testing",
+    "a1": "//",
+    "a2": "Testing which takes place with knowledge of the inner workings of the program",
+    "a3": "testing which takes place without knowledge of the inner workings of the program",
+    "correctAnswerIs": "2️⃣"
+  },
+  {
+    "subject": 513,
+    "question": "Wich of the following statements is true",
+    "a1": "All data types are created on the stack",
+    "a2": "Reference data types are created on the stack, Value data types are created on the heap",
+    "a3": "All data types are created on the heap",
+    "correctAnswerIs": "2️⃣"
+  }
+]
